@@ -1,0 +1,99 @@
+body{
+	background-color: #FAFAFA;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #4a4a4a;
+}
+.page-header{
+	height: 70px;
+}
+a:hover{
+	text-decoration: none;
+}
+.logo{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;	
+	width: 140px;
+	text-align: center;
+	float: left;
+}
+.adriano{
+	color: #800000;
+	font-weight: bolder;
+	font-size: 35px;
+	line-height: 0px;
+	display: block;
+	margin-bottom: 10px;
+}
+.pereira{
+	color: #6E6E6E;
+	font-size: 25px;
+}
+.menu{
+	/*background: red;*/
+	float: right;
+	margin-top: 30px;
+}
+.menu li{
+	bottom: 0px;
+	display: inline-block;
+	width: 100px;
+	vertical-align: middle;
+	text-align: center;
+}
+.menu a{
+	color: #6E6E6E;
+}
+.menu a:hover{
+	background-color: #800000;
+	color: #FFF;
+	padding: 10px;
+}
+.conteudo{
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+	background-color: #FFF;
+	box-shadow: 1px 1px 2px rgba(0,0,0,3);
+}
+.secao{
+	
+}
+
+.lateral{
+	/*text-align: center;*/
+}
+.lateral h3{
+	text-align: center;
+}
+.perfil{
+	/*text-align: center;*/
+}
+.img-perfil{
+	text-align: center;
+}
+.lateral img{
+	text-align: center;
+	border-radius: 100%;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+}
+.nome{
+	margin: 0px;
+	font-size: 25px;
+}
+.instagram{
+	margin: 0px;
+}
+.descricao{
+	text-align: left;
+	margin-top: 15px;
+}
+.citacao{
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center; !important;
+	display: block;  	
+}
+.rodape{
+	padding: 10px;
+	background-color: #FFF;
+	text-align: center;
+}
