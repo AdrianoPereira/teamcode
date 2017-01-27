@@ -3,6 +3,9 @@ body{
 	font-family: 'PT Sans Narrow', sans-serif;
 	color: #4a4a4a;
 }
+h1, h2, h3{
+	color: #800000;
+}
 .page-header{
 	height: 70px;
 }
@@ -28,26 +31,22 @@ a:hover{
 	color: #6E6E6E;
 	font-size: 25px;
 }
-.menu{
-	/*background: red;*/
-	float: right;
-	margin-top: 30px;
+.menu-formatado a{
+	color: #6E6E6E !important;
+	text-transform: uppercase;
 }
-.menu li{
-	bottom: 0px;
-	display: inline-block;
-	width: 100px;
-	vertical-align: middle;
-	text-align: center;
+.menu-formatado a:hover{
+	color: #FFF !important;
+	background-color: #800000 !important;
 }
-.menu a{
+/*.menu a{
 	color: #6E6E6E;
 }
 .menu a:hover{
 	background-color: #800000;
 	color: #FFF;
-	padding: 10px;
 }
+*/
 .conteudo{
 	margin: 10px 0px 10px 0px;
 	padding: 10px;
@@ -61,7 +60,7 @@ a:hover{
 .lateral{
 	/*text-align: center;*/
 }
-.lateral h3{
+.lateral h2{
 	text-align: center;
 }
 .perfil{
