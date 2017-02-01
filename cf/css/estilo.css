@@ -1,0 +1,15 @@
+/*.demo-color-accent{
+	background-color: rgba(0,0,0,.8) !important;
+	color: #FAFAFA;
+}
+.demo-color-accent a{
+	color: #FFF;
+	transition: all linear .2s;
+}
+.demo-color-accent a:hover{
+	color: #800000;
+	transition: all linear .2s;
+}*/
+.demo-space{
+	margin-right: 5px;
+}
