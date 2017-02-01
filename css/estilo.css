@@ -3,6 +3,12 @@ body{
 	font-family: 'PT Sans Narrow', sans-serif;
 	color: #4a4a4a;
 }
+.background{
+	background: url("../imagens/background.png");
+}
+.not-found{
+	
+}
 h1, h2, h3{
 	color: #800000;
 }
