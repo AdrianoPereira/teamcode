@@ -1,104 +1,67 @@
+html,body, #capa{
+	height: 100%;
+}
 body{
-	background-color: #FAFAFA;
-	font-family: 'PT Sans Narrow', sans-serif;
-	color: #4a4a4a;
+	background: #dcdcdc;
 }
-.background{
-	background: url("../imagens/background.png");
-}
-.not-found{
-	
-}
-h1, h2, h3{
-	color: #800000;
-}
-.page-header{
-	height: 70px;
-}
-a:hover{
-	text-decoration: none;
+.demo-navegacao{
+	background: rgb(25,24,47); /*Hex: #19182fff*/
+	padding: 10px 0px 10px 0px;
+	/*height: 100px;*/
 }
 .logo{
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;	
-	width: 140px;
-	text-align: center;
-	float: left;
-}
-.adriano{
-	color: #800000;
-	font-weight: bolder;
-	font-size: 35px;
-	line-height: 0px;
 	display: block;
+	width: 200px;
+	height: 56px;
+	background: url("../imagens/logo.png") no-repeat;
+
+}
+#capa{
+	background: url("../imagens/sala-competicao.jpg") center / cover no-repeat;
+	display: table;
+	width: 100%;
+}
+#texto-capa{
+	background: rgba(255,255,255,.4);
+	color: #FFF;
+	/*text-transform: uppercase;*/
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+}
+#texto-capa{
+	display: table-cell;
+	vertical-align: middle;
+}
+#texto-capa h1{
+	text-align: center;
+	padding: 10px;
+}
+#time{
+	padding: 20px 0px 0px 20px;
+}
+#time .row{
 	margin-bottom: 10px;
 }
-.pereira{
-	color: #6E6E6E;
-	font-size: 25px;
-}
-.menu-formatado a{
-	color: #6E6E6E !important;
-	text-transform: uppercase;
-}
-.menu-formatado a:hover{
-	color: #FFF !important;
-	background-color: #800000 !important;
-}
-/*.menu a{
-	color: #6E6E6E;
-}
-.menu a:hover{
-	background-color: #800000;
-	color: #FFF;
-}
-*/
-.conteudo{
-	margin: 10px 0px 10px 0px;
-	padding: 10px;
-	background-color: #FFF;
-	box-shadow: 1px 1px 2px rgba(0,0,0,3);
-}
-.secao{
-	
+#time .col-md-4{
+	text-align: center;
+
 }
 
-.lateral{
-	/*text-align: center;*/
+footer{
+	background: #000;
+	padding: 20px 0px 10px 0px;
 }
-.lateral h2{
-	text-align: center;
+.redes-sociais ul li{
+	display: inline-block;
+	margin-right: 20px;
 }
-.perfil{
-	/*text-align: center;*/
+/* ======================= Classes Genericas ======================= */
+
+/* ======================= Tipografia ======================= */
+#menu-principal a{
+	color: #FFF;
+	text-transform: uppercase;
 }
-.img-perfil{
-	text-align: center;
-}
-.lateral img{
-	text-align: center;
-	border-radius: 100%;
-	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
-}
-.nome{
-	margin: 0px;
-	font-size: 25px;
-}
-.instagram{
-	margin: 0px;
-}
-.descricao{
-	text-align: left;
-	margin-top: 15px;
-}
-.citacao{
-	margin-top: 10px;
-	font-size: 12px;
-	text-align: center; !important;
-	display: block;  	
-}
-.rodape{
-	padding: 10px;
-	background-color: #FFF;
-	text-align: center;
+#menu-principal a:hover{
+	background: none;
+	color: #FFFF00;
 }
