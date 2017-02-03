@@ -14,12 +14,12 @@ body{
 	width: 200px;
 	height: 56px;
 	background: url("../imagens/logo.png") no-repeat;
-
 }
 #capa{
 	background: url("../imagens/sala-competicao.jpg") center / cover no-repeat;
 	display: table;
 	width: 100%;
+	background-attachment: fixed;
 }
 #texto-capa{
 	background: rgba(255,255,255,.4);
