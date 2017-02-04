@@ -21,8 +21,9 @@ body{
 	width: 100%;
 	background-attachment: fixed;
 }
+
 #texto-capa{
-	background: rgba(255,255,255,.4);
+	background: rgba(0, 0, 0, 0.5);
 	color: #FFF;
 	/*text-transform: uppercase;*/
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -50,6 +51,14 @@ footer{
 	background: #000;
 	padding: 20px 0px 10px 0px;
 }
+
+ul{
+	list-style-type:none;
+}
+.redes-sociais{
+	text-align: right;
+}
+
 .redes-sociais ul li{
 	display: inline-block;
 	margin-right: 20px;
@@ -66,6 +75,9 @@ footer{
 	color: #FFFF00;
 }
 /**/
+a{
+	color: #FFF;
+}
 .a-redes-socias{
 	color: #FFF;
 }
