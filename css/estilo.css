@@ -81,7 +81,14 @@ a{
 .a-redes-socias{
 	color: #FFF;
 }
-
+.a-team{
+	width: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	display: block;
+	border-radius:100%;
+	background-color: #222
+}
 /*Media Querys*/
 @media(max-width:720px) {
 	.redes-sociais{
