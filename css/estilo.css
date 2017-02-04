@@ -66,7 +66,7 @@ footer{
 	box-shadow: 2px 2px 5px rgba(0,0,0,.2);
 	display: block;
 	height: 460px;
-	margin-bottom: 5px; 
+	margin-bottom: 5px;
 }
 footer{
 	background: #000;
@@ -120,7 +120,7 @@ ul{
 	color: #FFFF00;
 }
 /**/
-.a-team{
+ul > li > .a-team{
 	width: 40px;
 	font-size: 20px;
 	line-height: 40px;
@@ -158,14 +158,14 @@ ul{
 	color: #FFF;
 	text-transform: uppercase;
 }
-.descricao{	
+.descricao{
 	color: #6E6E6E;
 }
 .titulo{
 	color: #6E6E6E;
 	padding: 5px;
 	display: block;
-	text-align: left;	
+	text-align: left;
 }
 .competencias{
 	position: absolute;
@@ -175,11 +175,19 @@ ul{
 .subtitulo{
 	display: block;
 	font-weight: 900;
+	float: left;
 }
 .perfil-social{
 	background: red;
 	padding: 10px;
 	border-radius: 50px;
+}
+hr{
+	margin-top: 0px;
+  background-color:#19182F;
+  width:210px;
+  float:left;
+  height:4px;
 }
 
 /*Media Querys*/
