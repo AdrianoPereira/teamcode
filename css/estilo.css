@@ -81,3 +81,10 @@ a{
 .a-redes-socias{
 	color: #FFF;
 }
+
+/*Media Querys*/
+@media(max-width:720px) {
+	.redes-sociais{
+		text-align:center !important;
+	}
+}
