@@ -7,6 +7,7 @@ body{
 }
 a{
 	color: #FFF;
+	text-decoration: none;
 }
 a:hover{
 	color: #FFFF00;
@@ -64,6 +65,22 @@ footer{
 	display: block;
 	height: 450px;
 	margin-bottom: 5px; 
+}
+footer{
+	background: #000;
+	padding: 20px 0px 10px 0px;
+}
+
+ul{
+	list-style-type:none;
+}
+.redes-sociais{
+	text-align: right;
+}
+
+.redes-sociais ul li{
+	display: inline-block;
+	margin-right: 20px;
 }
 /* ======================= Classes Genericas ======================= */
 
@@ -137,4 +154,11 @@ footer{
 	background: red;
 	padding: 10px;
 	border-radius: 50px;
+}
+
+/*Media Querys*/
+@media(max-width:720px) {
+	.redes-sociais{
+		text-align:center !important;
+	}
 }
