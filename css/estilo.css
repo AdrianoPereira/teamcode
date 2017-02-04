@@ -30,7 +30,7 @@ a:hover{
 	background-attachment: fixed;
 }
 #texto-capa{
-	background: rgba(255,255,255,.4);
+	background: rgba(0, 0, 0, 0.5);
 	color: #FFF;
 	/*text-transform: uppercase;*/
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
