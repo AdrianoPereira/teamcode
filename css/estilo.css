@@ -130,12 +130,21 @@ ul > li > .a-team{
 	background-color: #19182f;
 }
 .titulo-secao{
+	/*border-left: 8px solid #FFFF00;*/
+	margin-right: 101px;
 	color: #19182F;
 	margin: 0;
 	font-weight: 900;
 	font-size: 40px;
+}/*
+.titulo-secao{
+	padding-left: 10px;
 }
 .subtitulo-secao{
+	padding-left: 20px;
+}*/
+.subtitulo-secao{
+	/*border-left: 10px solid #FFFF00;*/
 	color: #6E6E6E;
 	margin: 0px 0px 30px 0px;
 	font-weight: 400;
@@ -187,10 +196,10 @@ ul > li > .a-team{
 }
 hr{
 	margin-top: 0px;
-  background-color:#19182F;
-  width:210px;
-  float:left;
-  height:4px;
+	background-color:#19182F;
+	width:210px;
+	float:left;
+	height:4px;
 }
 
 /*Media Querys*/
