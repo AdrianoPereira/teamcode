@@ -43,7 +43,7 @@ a:hover{
 	text-align: center;
 	padding: 10px;
 }
-#time{
+.secao{
 	padding: 20px 0px 20px 0px;
 	background: #FFF;
 	/*margin: 10px 0px 10px 0px;*/
@@ -62,7 +62,7 @@ footer{
 }
 
 .perfil{
-	padding: 10px 0px 0px 0px;
+ 	padding: 10px 0px 0px 0px;
 	box-shadow: 2px 2px 5px rgba(0,0,0,.2);
 	display: block;
 	position: relative;
@@ -108,7 +108,27 @@ ul{
 #construcao p{
 	color: #6E6E6E;
 }
-
+.faixa{
+	color: #FFFF00;
+	background: #19182F;
+	text-transform: uppercase;
+	padding: 100px 0px 100px 0px;
+	font-weight: 900;
+	text-align: center;
+}
+/*======================= Página Sobre =======================*/
+#sobre{
+	margin-top: 70px;
+}
+section a{
+	color: #19182F;
+}
+section a:hover{
+	color: #6E6E6E;
+}
+.separador{
+	background: #19182F;
+}
 /* ======================= Classes Genericas ======================= */
 
 /* ======================= Tipografia ======================= */
