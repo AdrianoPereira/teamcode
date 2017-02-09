@@ -120,10 +120,10 @@ ul{
 #sobre{
 	margin-top: 70px;
 }
-section a{
+.rota a{
 	color: #19182F;
 }
-section a:hover{
+.rota a:hover{
 	color: #6E6E6E;
 }
 .separador{
